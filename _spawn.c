@@ -716,7 +716,7 @@ int _spawn (int mode, const char *pathname,
 
 	/* HUPAIR かどうか調べる */
 	ishupair = (strcmp ((char *) regs.a4 + 2, "#HUPAIR") == 0);
-#if 1
+#if 0
 printf("_spawn: ishupair = %d\n", ishupair);
 #endif
 	/* cmdline + 8 を求める */
